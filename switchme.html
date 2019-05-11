@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <title>SwitchMe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="switchme.css">
+<div class="jumbotron text-center">
+    <h1>Welcome to Switch Me</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    <br>
+    <form class="form-inline">
+        <div class="input-group">
+            <input type="text" class="form-control" size="50" placeholder="What are you looking for?" required>
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" size="50" placeholder="Location &#xf041; "  required >
+        </div>
+        <div class="input-group">
+            <select required name="categories">
+                <option value="" disabled selected>Example Placeholder</option>
+                <option value="1">Category 1</option>
+                <option value="2">Category 2</option>
+                <option value="3">Category 3</option>
+            </select>
+        </div>
+
+
+    </form>
+    <br>
+    <div id="trending">
+        <p>Trending search:</p>
+        <button type="button" class="btn btn-default bt-xs">Iphone</button>
+        <button type="button" class="btn btn-default bt-xs">Cars</button>
+        <button type="button" class="btn btn-default bt-xs">Flowers</button>
+        <button type="button" class="btn btn-default bt-xs">Houses</button>
+    </div>
+</div>
+<div class="container-fluid"></div>
+<div class="row">
+
+    <div class="columns">
+        <h2>Featured Ads</h2>
+        <br>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="https://drive.google.com/uc?export=view&id=1f6mD8C_udtsfsjZS4_vpoDW-EEA1vtH9" alt="furniture">
+                <p>
+                    <span class="text">Furniture</span>
+                    <button type="button" class="btn btn-info btn-sm">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </button>
+                </p>
+                <br>
+                <p class="entity">Wooden Chair & Table</p>
+                <p>Don St, Brooklyn, New York</p>
+                <br>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="review">(3 Reviews)</span>
+
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="https://drive.google.com/uc?export=view&id=1VCRBtPZzgkRnqYgT79fmRzIK362vidoc" alt="furniture">
+                <p>
+                    <span class="text">Electronics</span>
+                    <button type="button" class="btn btn-info btn-sm">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </button>
+                </p>
+                <br>
+                <p class="entity">Iphone X Gray</p>
+                <p>Don St, Brooklyn, New York</p>
+                <br>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="review">(3 Reviews)</span>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="https://drive.google.com/uc?export=view&id=1LqZe6oOKA5BCg_IiQ3fU0Vv5dJJO9p9t" alt="furniture">
+                <p>
+                    <span class="text">Car & Vehicles</span>
+                    <button type="button" class="btn btn-info btn-sm">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </button>
+                </p>
+                <br>
+                <p class="entity">New Black Car</p>
+                <p>Don St, Brooklyn, New York</p>
+                <br>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="review">(3 Reviews)</span>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="https://drive.google.com/uc?export=view&id=1RY3QHLa5bv24RIkDt4EqULmMlvvHhsxO" alt="furniture">
+                <p>
+                    <span class="text">Real Estate</span>
+                    <button type="button" class="btn btn-info btn-sm">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </button>
+                </p>
+                <br>
+                <p class="entity">Own New House</p>
+                <p>Don St, Brooklyn, New York</p>
+                <br>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star checked"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="review">(3 Reviews)</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="container-fluid bg-grey text-center" >
+    <h2>Popular Categories</h2>
+    <p>Lorem Ipsum Dolar Sit Amet</p>
+    <hr>
+    <br>
+    <div class="columns">
+        <div class="row">
+            <div class="col-sm-2">
+                <i class="fa fa-car"></i>
+                <br><br>
+                <p>Cars & Vehicles</p>
+                <br>
+                <span class="text">1,921</span>
+            </div>
+            <div class="col-sm-2">
+                <i class="fa fa-bed"></i>
+                <br><br>
+                <p>Furniture</p>
+                <br>
+                <span class="text">2,339</span>
+            </div>
+            <div class="col-sm-2">
+                <i class="fa fa-home"></i>
+                <br><br>
+                <p>Real and Estate</p>
+                <br>
+                <span class="text">4,398</span>
+            </div>
+            <div class="col-sm-2">
+                <i class="fa fa-book"></i>
+                <br><br>
+                <p>Books & Magazines</p>
+                <br>
+                <span class="text">3,298</span>
+            </div>
+            <div class="col-sm-2">
+                <i class="fa fa-tv"></i>
+                <br><br>
+                <p>Electronics</p>
+                <br>
+                <span class="text">2,932</span>
+            </div>
+            <div class="col-sm-2">
+                <i class='fas fa-pizza-slice'></i>
+                <br><br>
+                <p>Other</p>
+                <br>
+                <span class="text">183</span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container-fluid">
+    <div class="columns">
+        <h2>Trending Today</h2>
+        <hr><br>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="thumbnail_hor">
+                    <img src="https://drive.google.com/uc?export=view&id=1RY3QHLa5bv24RIkDt4EqULmMlvvHhsxO" alt="real estate" >
+                    <p>
+                        <span class="text">Real Estate</span>
+                        <button type="button" class="btn btn-info btn-sm">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </button>
+                    </p>
+                    <p class="entity">Own New House</p>
+                    <p>Don St, Brooklyn, New York</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="review">(3 Reviews)</span>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="thumbnail_hor">
+                    <img src="https://drive.google.com/uc?export=view&id=1LqZe6oOKA5BCg_IiQ3fU0Vv5dJJO9p9t" alt="car & vehicles" >
+                    <p>
+                        <span class="text">Car & Vehicles</span>
+                        <button type="button" class="btn btn-info btn-sm">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </button>
+                    </p>
+                    <p class="entity">New Black Car</p>
+                    <p>Don St, Brooklyn, New York</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="review">(3 Reviews)</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="thumbnail_hor">
+                    <img src="https://drive.google.com/uc?export=view&id=1f6mD8C_udtsfsjZS4_vpoDW-EEA1vtH9" alt="furniture" >
+                    <p>
+                        <span class="text">Furniture</span>
+                        <button type="button" class="btn btn-info btn-sm">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </button>
+                    </p>
+                    <p class="entity">Wooden Chair & Table</p>
+                    <p>Don St, Brooklyn, New York</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="review">(3 Reviews)</span>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="thumbnail_hor">
+                    <img src="https://drive.google.com/uc?export=view&id=1RY3QHLa5bv24RIkDt4EqULmMlvvHhsxO" alt="real estate" >
+                    <p>
+                        <span class="text">Real Estate</span>
+                        <button type="button" class="btn btn-info btn-sm">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </button>
+                    </p>
+                    <p class="entity">Own New House</p>
+                    <p>Don St, Brooklyn, New York</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="review">(3 Reviews)</span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="thumbnail_hor">
+                    <img src="https://drive.google.com/uc?export=view&id=1VCRBtPZzgkRnqYgT79fmRzIK362vidoc" alt="electronics" >
+                    <p>
+                        <span class="text">Electronics</span>
+                        <button type="button" class="btn btn-info btn-sm">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </button>
+                    </p>
+                    <p class="entity">Iphone X Gray</p>
+                    <p>Don St, Brooklyn, New York</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="review">(3 Reviews)</span>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="thumbnail_hor">
+                    <img src="https://drive.google.com/uc?export=view&id=1f6mD8C_udtsfsjZS4_vpoDW-EEA1vtH9" alt="furniture" >
+                    <p>
+                        <span class="text">Furniture</span>
+                        <button type="button" class="btn btn-info btn-sm">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </button>
+                    </p>
+                    <p class="entity">Wooden Chair & Table</p>
+                    <p>Don St, Brooklyn, New York</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="review">(3 Reviews)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  TESTIMONIAL-->
+<div class="carousel-bg bg-grey">
+    <h2>Testimonials</h2>
+    <hr>
+    <!-- Carousel-->
+    <div id="carousel1" class="carousel slide testimonial-style" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel1" data-slide-to="1"></li>
+            <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="carousel-caption testimonial-caption-style">
+                    <img src="https://drive.google.com/uc?export=view&id=17z1re6KY8KnuJcjCBUqWYJfJ66KyJkco" alt="Bruce Rogers" class="img-responsive quote-image">
+                    <p class="testimonial-authors">Bruce Rogers</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Vitae semper quis lectus nulla at volutpat diam.
+                    </p>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="carousel-caption testimonial-caption-style">
+                    <img src="https://drive.google.com/uc?export=view&id=1hN0AkGVFXXGxEXqUazN8VT27qLeXJZPq" alt="Adam Vogues" class="img-responsive quote-image">
+                    <p class="testimonial-authors">Adam Vogues</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="carousel-caption testimonial-caption-style">
+                    <img src="https://drive.google.com/uc?export=view&id=1isRz2owXIFI6Sfz8AcoE5T9TVDzpKPLI" alt="John Doe" class="img-responsive quote-image">
+                    <p class="testimonial-authors">John Doe</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+
+        <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+        <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+    </div>
+</div>
+<!--BLOGS-->
+<div class="container-fluid text-center">
+    <div class="columns">
+        <h2>Our Blog</h2>
+        <p class="blog">See Our Daily News & Updates</p>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="https://drive.google.com/uc?export=view&id=1LqZe6oOKA5BCg_IiQ3fU0Vv5dJJO9p9t" alt="furniture">
+                    <p class="head">Many People Selling Online</p>
+                    <p>
+                        <span class="blogtext">by Mark Spiker <span class="separate"> * Jan 18,2019 * <span class="news">News</span></span></span>
+                    </p>
+                    <br>
+                    <p class="main-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="https://drive.google.com/uc?export=view&id=1RY3QHLa5bv24RIkDt4EqULmMlvvHhsxO" alt="furniture">
+                    <p class="head">Many People Selling Online</p>
+                    <p>
+                        <span class="blogtext">by Mark Spiker <span class="separate"> * Jan 18,2019 * <span class="news">News</span></span></span>
+                    </p>
+                    <br>
+                    <p class="main-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="https://drive.google.com/uc?export=view&id=1f6mD8C_udtsfsjZS4_vpoDW-EEA1vtH9" alt="furniture">
+                    <p class="head">Many People Selling Online</p>
+                    <p>
+                        <span class="blogtext">by Mark Spiker <span class="separate"> * Jan 18,2019 * <span class="news">News</span></span></span>
+                    </p>
+                    <br>
+                    <p class="main-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Vitae semper quis lectus nulla at volutpat diam.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn btn-default">View All Posts</a>
+    </div>
+</div>
+<!--Newsletter-->
+<div class="container-fluid bg-blue">
+    <div class="columns">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="newsletter">Newsletter</p>
+                <p class="newsletter">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-sm-6">
+                <form class="form-inline">
+                    <input type="email" class="form-control" size="50" placeholder="Email" required>
+                    <button class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
